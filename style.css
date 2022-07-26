@@ -1,51 +1,52 @@
 *{
-    width: 100%;
-    height: 100%;
+    
     box-sizing: border-box;
+    margin: -1px;
 }
 
 .All-Page{
-    background-color: black;
+    background-color: rgb(142, 223, 248);
     width: 100%;
     height: 2600px;
 }
 
 .Section_1
 {
-    background-color: yellow;
+    background: url(header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    height: 40%;
+    height: 47.5%;
+}
+.header_text
+{
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+}
+.button_header button
+{
+    border: 0px;
+    color: white;
+    background-color: black;
+    
 }
 .Section_2
 {
     width: 100%;
-    height: 40%;
-    background-color: blue;
+    height: 47.5%;
+    background: url(section2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 .Section_3
 {
     width: 100%;
-    height: 10%;
+    height: 5%;
     background-color: red;
 }
-.Image_header{
-  height: 100%;
-  width: 100%;
-  /* background: url(header.jpg); 
-  position: absolute;
-  background-position: center;
-  background-repeat: no-repeat;
-  */
-}
 
-.Image_Content{
-
-    /* background: url(section2.jpg);
-    position: absolute;
-  background-position: center;
-  background-repeat: no-repeat;
-  */
-  height: 100%;
-  width: 100%;
-}
 
