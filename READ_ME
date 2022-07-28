@@ -1,0 +1,19 @@
+Dear Amazon Team
+
+Please find the website in the folder inside.
+
+IMPORTANT NOTE:
+
+* Genetic Algorithm is fully implemented and it works just fine
+* The website is working but i didn't manage to integrate my genetic algorithm script which is written by python to my Website which is written by Django because of SQLite
+* Sqlite have different commands to fetch the database in python from Django (Django use Models)
+* You can find the workable verison of genetic algorithm in the file called "Genetic Algorithm", the not workable one is integrated in views.py in the website
+*I hope you guys like it
+___________________________________________________
+
+How to run the django website:
+
+Install Django and virtual enviroment
+Install required librires
+Run the command: python manange.py runserver
+
